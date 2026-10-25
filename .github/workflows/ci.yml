@@ -1,0 +1,49 @@
+name: Core mechanics
+on:
+  push:
+    branches: ['iter/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    container: swift:6.0.3-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - run: apt-get update && apt-get install -y python3
+      - run: mkdir -p work && scripts/check-core-purity.sh | tee work/purity.log
+      - run: swift build > work/build.log 2>&1
+      - run: swift test --enable-code-coverage > work/tests.log 2>&1
+      - run: swift run uc-sim --report work/uc-sim-report.json > work/sim.log 2>&1
+      - run: python3 scripts/coverage.py --minimum 85 --output work/coverage.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-linux
+          path: |
+            work/*.log
+            work/*report.json
+            work/coverage.json
+  macos:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install xcodegen
+      - run: mkdir -p work && scripts/build.sh --unsigned-ci > work/build.log 2>&1
+      - run: swift test --enable-code-coverage > work/tests.log 2>&1
+      - run: swift run uc-sim --report work/uc-sim-report.json > work/sim.log 2>&1
+      - run: python3 scripts/coverage.py --minimum 85 --output work/coverage.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-${{ matrix.os }}
+          path: |
+            work/*.log
+            work/*report.json
+            work/coverage.json
