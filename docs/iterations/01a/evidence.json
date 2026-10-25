@@ -1,0 +1,499 @@
+{
+  "version": "2.0.0-alpha.1",
+  "build": 32,
+  "commit": "73b0ef5c23f97649a3c5b84d9d21ba8e8fc29b75",
+  "branch": "iter/01a-core-mechanics",
+  "commit_scope": "implementation baseline; documentation-only evidence commits follow; immutable release_commit is recorded after tagging",
+  "codex": {
+    "model": "GPT-6 family; exact runtime identifier not exposed",
+    "effort": null
+  },
+  "environment": {
+    "macos": "26.6.2 (25G83)",
+    "hardware": "MacBook Air M2, 16 GiB, Mac14,2",
+    "xcode": "27.1 (27A9275)",
+    "swift": "Apple Swift 6.4 (swiftlang-6.4.0.34.1)"
+  },
+  "ci": {
+    "run_url": null,
+    "linux": "pending",
+    "macos-latest": "pending",
+    "macos-15": "pending"
+  },
+  "tests": [
+    {
+      "suite": "UCCoreTests",
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "where": "local"
+    },
+    {
+      "suite": "UCPlatformTests",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "where": "local",
+      "scope": "placeholder boundary only; no event hooks"
+    }
+  ],
+  "uc_sim": {
+    "failed": [],
+    "passed": 142,
+    "scenarios": 142
+  },
+  "property": {
+    "correction_plans": 5856,
+    "engines": 2,
+    "events_per_engine": 394231,
+    "executions": 20000,
+    "failures": 0,
+    "plans": 16786,
+    "seed": "0x5543320001",
+    "streams": 10000
+  },
+  "coverage": {
+    "covered": 986,
+    "count": 1016,
+    "percent": 97.04724409448819,
+    "files": [
+      {
+        "file": "Sources/UCCore/CorrectionEngine.swift",
+        "covered": 75,
+        "count": 77
+      },
+      {
+        "file": "Sources/UCCore/InjectionPlan.swift",
+        "covered": 105,
+        "count": 106
+      },
+      {
+        "file": "Sources/UCCore/InputCoordinator.swift",
+        "covered": 173,
+        "count": 181
+      },
+      {
+        "file": "Sources/UCCore/Layout.swift",
+        "covered": 62,
+        "count": 70
+      },
+      {
+        "file": "Sources/UCCore/Model.swift",
+        "covered": 33,
+        "count": 33
+      },
+      {
+        "file": "Sources/UCCore/Simulation.swift",
+        "covered": 62,
+        "count": 65
+      },
+      {
+        "file": "Sources/UCCore/TypingSession.swift",
+        "covered": 358,
+        "count": 362
+      },
+      {
+        "file": "Sources/UCCore/VirtualField.swift",
+        "covered": 118,
+        "count": 122
+      }
+    ]
+  },
+  "dataset_hashes": [
+    {
+      "path": "Tests/Fixtures/layouts/en.json",
+      "sha256": "528c9da5e94122e7fec35055f37a7070a709650ae017ec2ae9d9ee7f2e5ebe56"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/ru-pc.json",
+      "sha256": "6c1c9e0140ad351271611b5ed5be4ff12ac646942ae957bea0c8f05af8cd78d2"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/ru.json",
+      "sha256": "ecd83d7e384c838afaa37e8ead1349c75a00d81ec0163a40a93b91d8f61c9dcc"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/us.json",
+      "sha256": "49b03a100c6eefc7a748daba3f461f3eb167fca9399250b36c81fec98f344ef6"
+    },
+    {
+      "path": "Tests/Scenarios/mechanics.yaml",
+      "sha256": "e0fac5564cca66c006e786c0097e749825d260582dbb030e5dd004470ac2541e"
+    }
+  ],
+  "implementation_hashes": [
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "66343652c53751cdecaa1c2485b0de522e416372b6e1f9e527dbc8ab2feccf1f"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+      "sha256": "b20901ec84ebfc396343987ca4ded586e3a8659db953cb99b74b494b1dd5052a"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-128.png",
+      "sha256": "4bda66c790ac627fdf48b45f38a0043122cfef5b9774003ef8cbc3c56e578e56"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-16.png",
+      "sha256": "0ef80a425570e02aa6a12c5c9741e6980feb037c655403242e084d3b74961b81"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-256.png",
+      "sha256": "1badc8ea0f079a39897329621259607b3afd205330ad30d19de492460768cdb6"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-32.png",
+      "sha256": "1cb28f5f2ee6e70019fdfa1f05f100fa11ef7705a53d640df5ea2ca061f45bdd"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-512.png",
+      "sha256": "c6885d183636412bbd75fbbe6e4f3ddae44b9f3ff0f224ff8bbcb4e8df3e4b9b"
+    },
+    {
+      "path": "App/Assets.xcassets/AppIcon.appiconset/icon-64.png",
+      "sha256": "be1acde5e6ea552ca799422c2a7a43146e4a1eaf8e36b9dc62ff0ed0267441d5"
+    },
+    {
+      "path": "App/Assets.xcassets/Contents.json",
+      "sha256": "e8e8ef4b27126d62305af321d12a6e64b866ca0b160f0f83efae90111f0ee576"
+    },
+    {
+      "path": "App/Info.plist",
+      "sha256": "6530c22d9c8012e7b617a2a141ca9967280e26d17333a901aa8cc98934a6af2f"
+    },
+    {
+      "path": "App/UltraCorrectApp.swift",
+      "sha256": "d42dc782cd9530baa468a0d7f50dfce6e728d203a11f723949df30f6e05a5a6e"
+    },
+    {
+      "path": "Package.swift",
+      "sha256": "08152ecf1d6e16152d9f5090dd99459e17718237841889a8fb2ac3888b725158"
+    },
+    {
+      "path": "Sources/UCCore/CorrectionEngine.swift",
+      "sha256": "e299d9f4ace1a8a11b803a6678915a68da6dbc4f6fd3db78e55ed819d2fbb388"
+    },
+    {
+      "path": "Sources/UCCore/InjectionPlan.swift",
+      "sha256": "a7c19367d7db14ce84a6847dd6b8232e9cd901361ae6b0daa260dd7d8f8a6c0c"
+    },
+    {
+      "path": "Sources/UCCore/InputCoordinator.swift",
+      "sha256": "2b66be0d84408ef11d1ccf8e9470f6e6047f69d2c7c165e3fba46fed19a4a7b1"
+    },
+    {
+      "path": "Sources/UCCore/Layout.swift",
+      "sha256": "3003a4aaf6335eb931f0cafcfda4db0eaf09db792279945fa6717243a776cc1d"
+    },
+    {
+      "path": "Sources/UCCore/Model.swift",
+      "sha256": "bb3cb273b18055a6326e36c368d9991b74236dd0220a32403655ddec580fbb1d"
+    },
+    {
+      "path": "Sources/UCCore/Simulation.swift",
+      "sha256": "5364b2e8ab95cfee461d03e27fa28dd3385a16774daa8b2d2b0524619e239983"
+    },
+    {
+      "path": "Sources/UCCore/TypingSession.swift",
+      "sha256": "8c962a33cb131f571f4ff3e54af4d4f50c7e0049920156bab7d2adb4a893264e"
+    },
+    {
+      "path": "Sources/UCCore/VirtualField.swift",
+      "sha256": "7be533a943999ae60f73a6fd86bf5cb1bcdca82211711319bcb8ceb1f189d793"
+    },
+    {
+      "path": "Sources/UCNeural/NeuralScorer.swift",
+      "sha256": "51d7a67a890efd0f7cbf33e20b14ff9bc28654d52a4d3f2cefc7c37b17aa83c7"
+    },
+    {
+      "path": "Sources/UCPlatform/Platform.swift",
+      "sha256": "dbc3dbcb9f3981ccdcc8c51d67a6c1cc718fad82db2c142d47604365a1398952"
+    },
+    {
+      "path": "Sources/uc-bench/main.swift",
+      "sha256": "e3d917e3223927b3724dabbc6a2f31530e805cb2bcf03c5eb98fadf17af7c82a"
+    },
+    {
+      "path": "Sources/uc-eval/main.swift",
+      "sha256": "e69b1583ece7cbb08d5dffd1030cfa185f21227d3a058c94601a73b884d20e92"
+    },
+    {
+      "path": "Sources/uc-layout-dump/main.swift",
+      "sha256": "14e9bc3e916aef7f27b28267380ffb1caef3844331181a37042553162d18d80e"
+    },
+    {
+      "path": "Sources/uc-resources/main.swift",
+      "sha256": "8998eab1453041b567880f1c08aa414bb6588d2a399d861ad58ec4c5b1389121"
+    },
+    {
+      "path": "Sources/uc-sim/main.swift",
+      "sha256": "0b255a406fe3fd08ef1e8d91702916b90045242ef57425abc09dd2d25f9ef37b"
+    },
+    {
+      "path": "TestHost/Info.plist",
+      "sha256": "da948db7c987dcc10458861021c6fbef598e3cdee980a6dd4a110a95813eadc1"
+    },
+    {
+      "path": "TestHost/UCTestHostApp.swift",
+      "sha256": "b7440677739abc503b9aeb21534ca7f4ae9b29cff06ade7534ac78e836b5cc9f"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/en.json",
+      "sha256": "528c9da5e94122e7fec35055f37a7070a709650ae017ec2ae9d9ee7f2e5ebe56"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/ru-pc.json",
+      "sha256": "6c1c9e0140ad351271611b5ed5be4ff12ac646942ae957bea0c8f05af8cd78d2"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/ru.json",
+      "sha256": "ecd83d7e384c838afaa37e8ead1349c75a00d81ec0163a40a93b91d8f61c9dcc"
+    },
+    {
+      "path": "Tests/Fixtures/layouts/us.json",
+      "sha256": "49b03a100c6eefc7a748daba3f461f3eb167fca9399250b36c81fec98f344ef6"
+    },
+    {
+      "path": "Tests/Scenarios/mechanics.yaml",
+      "sha256": "e0fac5564cca66c006e786c0097e749825d260582dbb030e5dd004470ac2541e"
+    },
+    {
+      "path": "Tests/UCCoreTests/ModelTests.swift",
+      "sha256": "7468ac458c6206c9a114dca79ca73340d62885da8dc75b7b15538df5e6097e14"
+    },
+    {
+      "path": "Tests/UCCoreTests/PropertyTests.swift",
+      "sha256": "ea382132498d2eb3152aa1d3777fc30f01d086ffe229638d90a244f0aa80b161"
+    },
+    {
+      "path": "Tests/UCCoreTests/RegressionTests.swift",
+      "sha256": "cb2617d1141bfaaccc25313ffeec301ef466aacce8e0a0cb47f726e24dd768a8"
+    },
+    {
+      "path": "Tests/UCCoreTests/SimulationTests.swift",
+      "sha256": "32a0f605bf561d06409fe41bcd848bf9943941ec2fb4c051f8fe01666ca9e3f4"
+    },
+    {
+      "path": "Tests/UCPlatformTests/BoundaryTests.swift",
+      "sha256": "a4246f2fd5c4dfa8d6f7f9140d6c9de0b43fce9ebbba5af79ff2a802b5e7ab48"
+    },
+    {
+      "path": "project.yml",
+      "sha256": "87a5d1a7db37a603300c5087a9b60b4beb8e878362887c1d40c2774ceb687297"
+    },
+    {
+      "path": "scripts/CreateSigningIdentity.swift",
+      "sha256": "77e7654cfbc8659646ce1909c129a49e0115f565123550d6b475ad2afe2ef608"
+    },
+    {
+      "path": "scripts/bootstrap.sh",
+      "sha256": "4005227d0d860888f863b25b9a2348cdba7577f0f4181dee1fa91a1b9b9035ba"
+    },
+    {
+      "path": "scripts/build.sh",
+      "sha256": "2b77388cec315880671ebbfff33c80972e97d0d98cefe64c81ffcc4a21751410"
+    },
+    {
+      "path": "scripts/check-core-purity.sh",
+      "sha256": "0b8a8c16534932e0d503ca3a732b6d8aa980fdad6396b1ec2900d629c273fea8"
+    },
+    {
+      "path": "scripts/compare-evidence.py",
+      "sha256": "a7cd7b849b2b7cc249393f99c0e3e39697c97861c287c01e86c2d42716239aeb"
+    },
+    {
+      "path": "scripts/coverage.py",
+      "sha256": "66fba8e9470aaadd22bde49758a8f77044625651640936aea855649f34f089b6"
+    },
+    {
+      "path": "scripts/create-signing-identity.sh",
+      "sha256": "0cd02948fcbec5547813ee7e766588a99ff510960fbe6822810e65e4bc93ce66"
+    },
+    {
+      "path": "scripts/fetch-resources.sh",
+      "sha256": "2aae60cbc21c185e868ae281f0c4ece6973b3062bfbd173c29081ac68a020827"
+    },
+    {
+      "path": "scripts/generate-scenarios.py",
+      "sha256": "412e26d77865deb6444772e2b68a22b7876b7901d2b07d20c4a379d74419d697"
+    },
+    {
+      "path": "scripts/reproduce.sh",
+      "sha256": "645021d730727be643b011263732d60f28adb8e6c6baa16a68229e91effb9d29"
+    },
+    {
+      "path": "scripts/sign.sh",
+      "sha256": "ffedde378be77a36a3cbef759034d2f0180c3e8248d1f9d57c19fa1955040901"
+    }
+  ],
+  "eval": [],
+  "performance": {
+    "core_decision_ms": null,
+    "end_to_end_ms": null,
+    "idle_cpu_pct": null,
+    "typing_cpu_pct": null,
+    "phys_footprint_mb": null,
+    "conditions": "Not measured in 01a. Simulation timing is injected, not a platform benchmark."
+  },
+  "compatibility": [
+    {
+      "app": "Яндекс Браузер textarea",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Яндекс Браузер contenteditable",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Яндекс Браузер chatgpt.com",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Яндекс Браузер адресная строка",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "ChatGPT",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Obsidian",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Телемост",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Telegram native",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Telegram Desktop",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "VS Code",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Microsoft Excel",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "TextEdit",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    },
+    {
+      "app": "Notes",
+      "app_version": null,
+      "scenario": "all",
+      "result": "skip",
+      "evidence": "none",
+      "note": "Platform integration and smoke are iteration 01c."
+    }
+  ],
+  "signing": {
+    "identity_name": "UltraCorrect Local Development",
+    "identity_sha1": "28107DCFD48A5B3B21DC6726144ACFFDDCE44E0A",
+    "bundle_id": "local.ultracorrect.mac",
+    "codesign_verify": "ok",
+    "hardened_runtime": true,
+    "build": 32,
+    "spctl": "not run; no application or DMG distributed in 01a",
+    "new_identity_creation": "not run; existing identity reused; helper typechecked"
+  },
+  "purity": {
+    "positive": "pass",
+    "negative": "exit 1 on import AppKit",
+    "temporary_branch_removed": true
+  },
+  "privacy": {
+    "old_history_published": false,
+    "new_history_gitleaks": "clean",
+    "personal_corpus_copied": false,
+    "external_resources_copied": false
+  },
+  "resources": [],
+  "reproduction": {
+    "command": "scripts/reproduce.sh v2.0.0-alpha.1",
+    "status": "awaiting immutable tag; baseline ready"
+  },
+  "not_done": [
+    {
+      "item": "Real event interception, injection, AX, app smoke, DMG",
+      "reason": "Explicitly outside 01a; scheduled for 01c."
+    },
+    {
+      "item": "Lexicons, detector, quality and performance benchmarks",
+      "reason": "Explicitly outside 01a; stub data only."
+    },
+    {
+      "item": "Fallback new-key creation on another Mac",
+      "reason": "Not executed because the existing permanent identity is present. Helper typecheck passed."
+    }
+  ],
+  "approved_clarifications": [
+    "New public ultracorrect2 repository; old stays private.",
+    "Pairs inserted immediately per SPEC 7.7.",
+    "Use yt pyf. for the intended complete phrase; retain literal yt pyf test."
+  ],
+  "commands": [
+    "swift build",
+    "swift test --enable-code-coverage",
+    "swift run uc-sim --report work/uc-sim-report.json",
+    "python3 scripts/coverage.py --minimum 85",
+    "scripts/build.sh",
+    "gitleaks git --log-opts=--all --redact",
+    "scripts/check-core-purity.sh"
+  ]
+}
