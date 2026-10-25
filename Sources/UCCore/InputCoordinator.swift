@@ -160,8 +160,10 @@ public struct InputCoordinator: Sendable {
         var remaining = queue; queue.removeAll()
         if sourceChanged {
             // Rebase the complete queue before another trigger can suspend replay.
+            var replaySource = field.source
             remaining = remaining.map { event in
-                LayoutConverter(map: map).rebase(event, to: field.source) ?? event
+                if event.kind == .sourceChanged { replaySource = event.source; return event }
+                return LayoutConverter(map: map).rebase(event, to: replaySource) ?? event
             }
         }
         while !remaining.isEmpty {

@@ -127,5 +127,6 @@ add('enter-correction-undo',typed('превет\n')+[event('z',modifiers=4,time=
 add('layout-reverse-on',typed('руддщ '),'hello ',expectedSource='en',profile={'reverseLayout':True},rules=[rule('руддщ',source='en')],expectedPlans=1)
 add('layout-reverse-off',typed('руддщ '),'руддщ ',rules=[rule('руддщ',source='en')],expectedPlans=0)
 add('pair-conversion-undo-overtype',typed('[jhjij ','en')+[event('z',modifiers=4,time=100,source='ru'),event(']',time=150,source='en')],'[jhjij ]',source='en',rules=[rule('[jhjij',source='ru')],profile={'pairs':True},expectedPlans=4)
+add('user-source-change-during-plan',typed('ghbdtn ','en')+[event(kind='sourceChanged',source='en',time=62),event('f',source='en',time=63)],'привет f',source='en',rules=[rule('ghbdtn',source='ru')],planStepMs=5,expectedPlans=1)
 (ROOT/'Tests/Scenarios/mechanics.yaml').write_text(json.dumps(CASES,ensure_ascii=False,indent=2)+'\n')
 print('scenarios',len(CASES))
