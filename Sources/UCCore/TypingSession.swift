@@ -22,6 +22,7 @@ public struct TypingSession: Sendable {
     public private(set) var lastTypedAt: Double = -.infinity
     public private(set) var acceptedTokens = Set<String>()
     private var tokenStart = 0
+    private var bufferStartBoundaryKnown: Bool
     private var sentenceStart = true
     private var shiftReleasedAt: Double?
     private var shiftDown = false
@@ -32,10 +33,12 @@ public struct TypingSession: Sendable {
     private var manualIndex = 0
     public init(source: String = "ru", boundaryKnown: Bool = false, profile: Profile = Profile()) {
         self.source = source; leftBoundaryKnown = boundaryKnown; self.profile = profile
+        bufferStartBoundaryKnown = boundaryKnown
     }
     public var text: String { buffer.map(\.text).joined() }
     public mutating func reset(boundaryKnown: Bool = false) {
         epoch += 1; buffer.removeAll(); tokenStart = 0; leftBoundaryKnown = boundaryKnown
+        bufferStartBoundaryKnown = boundaryKnown
         pairs.reset(); reverts.reset(); deferred = nil; soft = nil; inCode = false
         shiftReleasedAt = nil; shiftDown = false; manualOriginal = nil; acceptedTokens.removeAll(); sentenceStart = boundaryKnown
         manualCandidates.removeAll(); manualIndex = 0
@@ -50,6 +53,7 @@ public struct TypingSession: Sendable {
         if buffer.count > 400 {
             let count = buffer.count-400
             buffer.removeFirst(count); tokenStart -= count
+            bufferStartBoundaryKnown = false
             if tokenStart < 0 { tokenStart = 0; leftBoundaryKnown = false }
             pairs.reset(); reverts.reset(); deferred = nil; soft = nil; manualOriginal = nil
         }
@@ -59,6 +63,17 @@ public struct TypingSession: Sendable {
         if tokenStart < buffer.count { sentenceStart = false }
         append(event); tokenStart = buffer.count; leftBoundaryKnown = true
         if event.characters.contains(where: { ".!?…".contains($0) }) { sentenceStart = true }
+    }
+    private mutating func recomputeTokenStart() {
+        tokenStart = buffer.count
+        let english = TokenRules.english(source)
+        while tokenStart > 0 {
+            let previous = buffer[tokenStart-1].text
+            if previous.contains(where: \.isWhitespace) ||
+                (!english && previous.count == 1 && ",!?:;()[]{}»…\"".contains(previous)) { break }
+            tokenStart -= 1
+        }
+        leftBoundaryKnown = tokenStart > 0 || bufferStartBoundaryKnown
     }
     private func request(trailing: KeyEvent?, manual: Bool = false, soft: Bool = false) -> CorrectionRequest? {
         guard leftBoundaryKnown, tokenStart < buffer.count else { return nil }
@@ -93,11 +108,11 @@ public struct TypingSession: Sendable {
         shiftReleasedAt = nil
         if event.modifiers.contains(.command), event.text.lowercased() == "z", !event.modifiers.contains(.shift),
            let previous = reverts.available(at: event.time) {
-            reverts.remove(previous); acceptedTokens.insert(previous.before.trimmingCharacters(in: .whitespacesAndNewlines))
+            reverts.remove(previous); acceptedTokens.insert(previous.originalToken)
             return SessionEffect(.revert, pass: false, plan: previous.inverse())
         }
         if event.key == .backspace, profile.backspaceRevert, let previous = reverts.available(at: event.time) {
-            reverts.remove(previous); acceptedTokens.insert(previous.before.trimmingCharacters(in: .whitespacesAndNewlines))
+            reverts.remove(previous); acceptedTokens.insert(previous.originalToken)
             return SessionEffect(.revert, pass: false, plan: previous.inverse(withoutDelimiter: true))
         }
         reverts.close(); manualOriginal = nil
@@ -118,14 +133,14 @@ public struct TypingSession: Sendable {
             if profile.pairs && pairs.empty(at: buffer.count) {
                 let closing = pairs.stack.last!.closer; let opening = buffer.last?.text ?? ""
                 pairs.pop(); if !buffer.isEmpty { buffer.removeLast() }
-                tokenStart = min(tokenStart, buffer.count)
+                recomputeTokenStart()
                 let plan = InjectionPlan(kind: .pairDelete, epoch: epoch, start: buffer.count, deleteBackward: 1, deleteForward: 1,
                                          before: opening+closing, inputSourceBefore: source, inputSourceAfter: source)
                 return SessionEffect(.pairDelete, pass: false, plan: plan)
             }
             if !buffer.isEmpty { buffer.removeLast() }
-            if buffer.isEmpty { leftBoundaryKnown = false }
-            tokenStart = min(tokenStart, buffer.count); return SessionEffect()
+            if buffer.isEmpty { bufferStartBoundaryKnown = false }
+            recomputeTokenStart(); return SessionEffect()
         }
         if let pending = soft {
             soft = nil
@@ -171,6 +186,7 @@ public struct TypingSession: Sendable {
             return SessionEffect(.pairInsert, pass: true, plan: plan)
         }
         if event.key == .space || event.key == .enter { tokenStart = buffer.count; leftBoundaryKnown = true }
+        if !isEnglish && ["[", "{", "("].contains(event.characters) { tokenStart = buffer.count; leftBoundaryKnown = true }
         return SessionEffect()
     }
     private mutating func overtype(_ event: KeyEvent) -> SessionEffect {
@@ -229,9 +245,7 @@ public struct TypingSession: Sendable {
             pairs.shift(after: start, by: newText.count-plan.deleteBackward)
         }
         deferred = nil; soft = nil
-        tokenStart = buffer.count
-        if let index = buffer.lastIndex(where: { $0.text.contains(where: \.isWhitespace) }) { tokenStart = index+1 }
-        else { tokenStart = 0 }
+        recomputeTokenStart()
         sentenceStart = newText.last.map { ".!?\n".contains($0) } ?? false
         if plan.trailing?.key == .enter {
             // Enter begins a new epoch. Only this correction remains available for immediate undo.
@@ -274,7 +288,7 @@ public struct TypingSession: Sendable {
                                                     sourceAfter: previous.inputSourceBefore, trailing: nil, profile: profile,
                                                     sameEpoch: true, wordsFromEnd: wordCount, idleMs: event.time-lastTypedAt) {
                 var undo = plan; undo.kind = .revert; reverts.remove(previous)
-                acceptedTokens.insert(previous.before.trimmingCharacters(in: .whitespacesAndNewlines))
+                acceptedTokens.insert(previous.originalToken)
                 return SessionEffect(.revert, pass: false, plan: undo)
             }
         }

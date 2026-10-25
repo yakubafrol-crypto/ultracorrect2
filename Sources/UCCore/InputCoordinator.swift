@@ -168,7 +168,7 @@ public struct InputCoordinator: Sendable {
         }
         while !remaining.isEmpty {
             var event = remaining.removeFirst()
-            event.time = now
+            // Preserve physical timestamps: collapsing queued Shift releases would invent a double-Shift.
             if sourceChanged && event.source != field.source && event.kind != .sourceChanged {
                 if let rebased = LayoutConverter(map:map).rebase(event,to:field.source) { event = rebased }
                 else { replayMappingFailures += 1; session.reset(); deliver(event); continue }

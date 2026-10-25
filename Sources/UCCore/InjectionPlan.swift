@@ -36,6 +36,10 @@ public struct InjectionPlan: Sendable, Equatable {
         self.inputSourceAfter = inputSourceAfter; self.overtypeTrailing = overtypeTrailing
     }
     public var isCorrection: Bool { [.correction, .layout, .manual].contains(kind) }
+    public var originalToken: String {
+        let length = max(0, beforeCursor-(trailing?.characters.count ?? 0))
+        return String(before.prefix(length)).trimmingCharacters(in: .whitespacesAndNewlines)
+    }
     public func operations(chunkSize: Int = 20) -> [InjectionOperation] {
         var result = Array(repeating: InjectionOperation.backspace, count: max(0, deleteBackward))
         result += Array(repeating: .forwardDelete, count: max(0, deleteForward))
