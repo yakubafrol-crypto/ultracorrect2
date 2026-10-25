@@ -17,6 +17,8 @@ for key in ['seed', 'streams', 'engines', 'executions', 'events_per_engine', 'pl
 rows.append(('coverage >= 85%', True, actual_coverage['percent'] >= 85))
 for row in expected['dataset_hashes']:
     rows.append(('sha256:' + row['path'], row['sha256'], hashlib.sha256(Path(row['path']).read_bytes()).hexdigest()))
+for row in expected['implementation_hashes']:
+    rows.append(('implementation:' + row['path'], row['sha256'], hashlib.sha256(Path(row['path']).read_bytes()).hexdigest()))
 print('| Metric | Report | Current | Match |')
 print('|---|---|---|---|')
 for key, before, after in rows:
