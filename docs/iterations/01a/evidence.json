@@ -15,10 +15,12 @@
     "swift": "Apple Swift 6.4 (swiftlang-6.4.0.34.1)"
   },
   "ci": {
-    "run_url": null,
-    "linux": "pending",
-    "macos-latest": "pending",
-    "macos-15": "pending"
+    "run_url": "https://github.com/yakubafrol-crypto/ultracorrect2/actions/runs/40187248315",
+    "commit": "8f3213b945589a740c368405e6f454e0d6d3aa19",
+    "linux": "success",
+    "macos-latest": "success",
+    "macos-15": "success",
+    "scope": "immutable release commit; subsequent branch commits change evidence documents only"
   },
   "tests": [
     {
@@ -465,8 +467,60 @@
   },
   "resources": [],
   "reproduction": {
-    "command": "scripts/reproduce.sh v2.0.0-alpha.1",
-    "status": "awaiting immutable tag; baseline ready"
+    "command": "UC_REPRODUCE_REPOSITORY=<local git repo> scripts/reproduce.sh v2.0.0-alpha.1",
+    "status": "pass",
+    "clean_clone": true,
+    "commit": "8f3213b945589a740c368405e6f454e0d6d3aa19",
+    "comparison_rows": 68,
+    "all_rows_match": true,
+    "scope": "SwiftPM build, tests, simulation, source/data SHA, coverage threshold",
+    "coverage": {
+      "covered": 986,
+      "count": 1016,
+      "percent": 97.04724409448819,
+      "files": [
+        {
+          "file": "Sources/UCCore/CorrectionEngine.swift",
+          "covered": 75,
+          "count": 77
+        },
+        {
+          "file": "Sources/UCCore/InjectionPlan.swift",
+          "covered": 105,
+          "count": 106
+        },
+        {
+          "file": "Sources/UCCore/InputCoordinator.swift",
+          "covered": 173,
+          "count": 181
+        },
+        {
+          "file": "Sources/UCCore/Layout.swift",
+          "covered": 62,
+          "count": 70
+        },
+        {
+          "file": "Sources/UCCore/Model.swift",
+          "covered": 33,
+          "count": 33
+        },
+        {
+          "file": "Sources/UCCore/Simulation.swift",
+          "covered": 62,
+          "count": 65
+        },
+        {
+          "file": "Sources/UCCore/TypingSession.swift",
+          "covered": 358,
+          "count": 362
+        },
+        {
+          "file": "Sources/UCCore/VirtualField.swift",
+          "covered": 118,
+          "count": 122
+        }
+      ]
+    }
   },
   "not_done": [
     {
@@ -495,5 +549,197 @@
     "scripts/build.sh",
     "gitleaks git --log-opts=--all --redact",
     "scripts/check-core-purity.sh"
+  ],
+  "release_commit": "8f3213b945589a740c368405e6f454e0d6d3aa19",
+  "ci_metrics": [
+    {
+      "runner": "evidence-linux",
+      "scenarios": 142,
+      "passed": 142,
+      "property": {
+        "correction_plans": 5856,
+        "engines": 2,
+        "events_per_engine": 394231,
+        "executions": 20000,
+        "failures": 0,
+        "plans": 16786,
+        "seed": "0x5543320001",
+        "streams": 10000
+      },
+      "coverage": {
+        "covered": 986,
+        "count": 1016,
+        "percent": 97.04724409448819,
+        "files": [
+          {
+            "file": "Sources/UCCore/CorrectionEngine.swift",
+            "covered": 75,
+            "count": 77
+          },
+          {
+            "file": "Sources/UCCore/InjectionPlan.swift",
+            "covered": 105,
+            "count": 106
+          },
+          {
+            "file": "Sources/UCCore/InputCoordinator.swift",
+            "covered": 173,
+            "count": 181
+          },
+          {
+            "file": "Sources/UCCore/Layout.swift",
+            "covered": 62,
+            "count": 70
+          },
+          {
+            "file": "Sources/UCCore/Model.swift",
+            "covered": 33,
+            "count": 33
+          },
+          {
+            "file": "Sources/UCCore/Simulation.swift",
+            "covered": 62,
+            "count": 65
+          },
+          {
+            "file": "Sources/UCCore/TypingSession.swift",
+            "covered": 358,
+            "count": 362
+          },
+          {
+            "file": "Sources/UCCore/VirtualField.swift",
+            "covered": 118,
+            "count": 122
+          }
+        ]
+      },
+      "test_cases_passed": 15
+    },
+    {
+      "runner": "evidence-macos-15",
+      "scenarios": 142,
+      "passed": 142,
+      "property": {
+        "correction_plans": 5856,
+        "engines": 2,
+        "events_per_engine": 394231,
+        "executions": 20000,
+        "failures": 0,
+        "plans": 16786,
+        "seed": "0x5543320001",
+        "streams": 10000
+      },
+      "coverage": {
+        "covered": 986,
+        "count": 1016,
+        "percent": 97.04724409448819,
+        "files": [
+          {
+            "file": "Sources/UCCore/CorrectionEngine.swift",
+            "covered": 75,
+            "count": 77
+          },
+          {
+            "file": "Sources/UCCore/InjectionPlan.swift",
+            "covered": 105,
+            "count": 106
+          },
+          {
+            "file": "Sources/UCCore/InputCoordinator.swift",
+            "covered": 173,
+            "count": 181
+          },
+          {
+            "file": "Sources/UCCore/Layout.swift",
+            "covered": 62,
+            "count": 70
+          },
+          {
+            "file": "Sources/UCCore/Model.swift",
+            "covered": 33,
+            "count": 33
+          },
+          {
+            "file": "Sources/UCCore/Simulation.swift",
+            "covered": 62,
+            "count": 65
+          },
+          {
+            "file": "Sources/UCCore/TypingSession.swift",
+            "covered": 358,
+            "count": 362
+          },
+          {
+            "file": "Sources/UCCore/VirtualField.swift",
+            "covered": 118,
+            "count": 122
+          }
+        ]
+      },
+      "test_cases_passed": 16
+    },
+    {
+      "runner": "evidence-macos-latest",
+      "scenarios": 142,
+      "passed": 142,
+      "property": {
+        "correction_plans": 5856,
+        "engines": 2,
+        "events_per_engine": 394231,
+        "executions": 20000,
+        "failures": 0,
+        "plans": 16786,
+        "seed": "0x5543320001",
+        "streams": 10000
+      },
+      "coverage": {
+        "covered": 986,
+        "count": 1016,
+        "percent": 97.04724409448819,
+        "files": [
+          {
+            "file": "Sources/UCCore/CorrectionEngine.swift",
+            "covered": 75,
+            "count": 77
+          },
+          {
+            "file": "Sources/UCCore/InjectionPlan.swift",
+            "covered": 105,
+            "count": 106
+          },
+          {
+            "file": "Sources/UCCore/InputCoordinator.swift",
+            "covered": 173,
+            "count": 181
+          },
+          {
+            "file": "Sources/UCCore/Layout.swift",
+            "covered": 62,
+            "count": 70
+          },
+          {
+            "file": "Sources/UCCore/Model.swift",
+            "covered": 33,
+            "count": 33
+          },
+          {
+            "file": "Sources/UCCore/Simulation.swift",
+            "covered": 62,
+            "count": 65
+          },
+          {
+            "file": "Sources/UCCore/TypingSession.swift",
+            "covered": 358,
+            "count": 362
+          },
+          {
+            "file": "Sources/UCCore/VirtualField.swift",
+            "covered": 118,
+            "count": 122
+          }
+        ]
+      },
+      "test_cases_passed": 16
+    }
   ]
 }
