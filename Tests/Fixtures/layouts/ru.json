@@ -1,0 +1,2624 @@
+{
+  "enabled" : true,
+  "entries" : [
+    {
+      "dead" : false,
+      "keyCode" : 0,
+      "modifiers" : 0,
+      "text" : "ф"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 0,
+      "modifiers" : 1,
+      "text" : "Ф"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 0,
+      "modifiers" : 2,
+      "text" : "ƒ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 0,
+      "modifiers" : 3,
+      "text" : "ƒ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 1,
+      "modifiers" : 0,
+      "text" : "ы"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 1,
+      "modifiers" : 1,
+      "text" : "Ы"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 1,
+      "modifiers" : 2,
+      "text" : "ы"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 1,
+      "modifiers" : 3,
+      "text" : "Ы"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 2,
+      "modifiers" : 0,
+      "text" : "в"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 2,
+      "modifiers" : 1,
+      "text" : "В"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 2,
+      "modifiers" : 2,
+      "text" : "ћ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 2,
+      "modifiers" : 3,
+      "text" : "Ћ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 3,
+      "modifiers" : 0,
+      "text" : "а"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 3,
+      "modifiers" : 1,
+      "text" : "А"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 3,
+      "modifiers" : 2,
+      "text" : "÷"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 3,
+      "modifiers" : 3,
+      "text" : "÷"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 4,
+      "modifiers" : 0,
+      "text" : "р"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 4,
+      "modifiers" : 1,
+      "text" : "Р"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 4,
+      "modifiers" : 2,
+      "text" : "₽"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 4,
+      "modifiers" : 3,
+      "text" : "₽"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 5,
+      "modifiers" : 0,
+      "text" : "п"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 5,
+      "modifiers" : 1,
+      "text" : "П"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 5,
+      "modifiers" : 2,
+      "text" : "©"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 5,
+      "modifiers" : 3,
+      "text" : "©"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 6,
+      "modifiers" : 0,
+      "text" : "я"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 6,
+      "modifiers" : 1,
+      "text" : "Я"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 6,
+      "modifiers" : 2,
+      "text" : "ђ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 6,
+      "modifiers" : 3,
+      "text" : "Ђ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 7,
+      "modifiers" : 0,
+      "text" : "ч"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 7,
+      "modifiers" : 1,
+      "text" : "Ч"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 7,
+      "modifiers" : 2,
+      "text" : "≈"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 7,
+      "modifiers" : 3,
+      "text" : "≈"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 8,
+      "modifiers" : 0,
+      "text" : "с"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 8,
+      "modifiers" : 1,
+      "text" : "С"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 8,
+      "modifiers" : 2,
+      "text" : "≠"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 8,
+      "modifiers" : 3,
+      "text" : "≠"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 9,
+      "modifiers" : 0,
+      "text" : "м"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 9,
+      "modifiers" : 1,
+      "text" : "М"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 9,
+      "modifiers" : 2,
+      "text" : "µ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 9,
+      "modifiers" : 3,
+      "text" : "µ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 10,
+      "modifiers" : 0,
+      "text" : ">"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 10,
+      "modifiers" : 1,
+      "text" : "<"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 10,
+      "modifiers" : 2,
+      "text" : "§"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 10,
+      "modifiers" : 3,
+      "text" : "±"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 11,
+      "modifiers" : 0,
+      "text" : "и"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 11,
+      "modifiers" : 1,
+      "text" : "И"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 11,
+      "modifiers" : 2,
+      "text" : "и"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 11,
+      "modifiers" : 3,
+      "text" : "И"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 12,
+      "modifiers" : 0,
+      "text" : "й"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 12,
+      "modifiers" : 1,
+      "text" : "Й"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 12,
+      "modifiers" : 2,
+      "text" : "ј"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 12,
+      "modifiers" : 3,
+      "text" : "Ј"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 13,
+      "modifiers" : 0,
+      "text" : "ц"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 13,
+      "modifiers" : 1,
+      "text" : "Ц"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 13,
+      "modifiers" : 2,
+      "text" : "џ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 13,
+      "modifiers" : 3,
+      "text" : "Џ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 14,
+      "modifiers" : 0,
+      "text" : "у"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 14,
+      "modifiers" : 1,
+      "text" : "У"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 14,
+      "modifiers" : 2,
+      "text" : "ќ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 14,
+      "modifiers" : 3,
+      "text" : "Ќ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 15,
+      "modifiers" : 0,
+      "text" : "к"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 15,
+      "modifiers" : 1,
+      "text" : "К"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 15,
+      "modifiers" : 2,
+      "text" : "®"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 15,
+      "modifiers" : 3,
+      "text" : "®"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 16,
+      "modifiers" : 0,
+      "text" : "н"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 16,
+      "modifiers" : 1,
+      "text" : "Н"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 16,
+      "modifiers" : 2,
+      "text" : "њ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 16,
+      "modifiers" : 3,
+      "text" : "Њ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 17,
+      "modifiers" : 0,
+      "text" : "е"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 17,
+      "modifiers" : 1,
+      "text" : "Е"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 17,
+      "modifiers" : 2,
+      "text" : "†"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 17,
+      "modifiers" : 3,
+      "text" : "†"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 18,
+      "modifiers" : 0,
+      "text" : "1"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 18,
+      "modifiers" : 1,
+      "text" : "!"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 18,
+      "modifiers" : 2,
+      "text" : "!"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 18,
+      "modifiers" : 3,
+      "text" : "|"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 19,
+      "modifiers" : 0,
+      "text" : "2"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 19,
+      "modifiers" : 1,
+      "text" : "\""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 19,
+      "modifiers" : 2,
+      "text" : "@"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 19,
+      "modifiers" : 3,
+      "text" : "\""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 20,
+      "modifiers" : 0,
+      "text" : "3"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 20,
+      "modifiers" : 1,
+      "text" : "№"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 20,
+      "modifiers" : 2,
+      "text" : "#"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 20,
+      "modifiers" : 3,
+      "text" : "£"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 21,
+      "modifiers" : 0,
+      "text" : "4"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 21,
+      "modifiers" : 1,
+      "text" : "%"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 21,
+      "modifiers" : 2,
+      "text" : "$"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 21,
+      "modifiers" : 3,
+      "text" : "€"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 22,
+      "modifiers" : 0,
+      "text" : "6"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 22,
+      "modifiers" : 1,
+      "text" : ","
+    },
+    {
+      "dead" : false,
+      "keyCode" : 22,
+      "modifiers" : 2,
+      "text" : "^"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 22,
+      "modifiers" : 3,
+      "text" : "¬"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 23,
+      "modifiers" : 0,
+      "text" : "5"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 23,
+      "modifiers" : 1,
+      "text" : ":"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 23,
+      "modifiers" : 2,
+      "text" : "%"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 23,
+      "modifiers" : 3,
+      "text" : "∞"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 24,
+      "modifiers" : 0,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 24,
+      "modifiers" : 1,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 24,
+      "modifiers" : 2,
+      "text" : "»"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 24,
+      "modifiers" : 3,
+      "text" : "«"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 25,
+      "modifiers" : 0,
+      "text" : "9"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 25,
+      "modifiers" : 1,
+      "text" : "("
+    },
+    {
+      "dead" : false,
+      "keyCode" : 25,
+      "modifiers" : 2,
+      "text" : "{"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 25,
+      "modifiers" : 3,
+      "text" : "'"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 26,
+      "modifiers" : 0,
+      "text" : "7"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 26,
+      "modifiers" : 1,
+      "text" : "."
+    },
+    {
+      "dead" : false,
+      "keyCode" : 26,
+      "modifiers" : 2,
+      "text" : "&"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 26,
+      "modifiers" : 3,
+      "text" : "¶"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 27,
+      "modifiers" : 0,
+      "text" : "-"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 27,
+      "modifiers" : 1,
+      "text" : "_"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 27,
+      "modifiers" : 2,
+      "text" : "–"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 27,
+      "modifiers" : 3,
+      "text" : "—"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 28,
+      "modifiers" : 0,
+      "text" : "8"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 28,
+      "modifiers" : 1,
+      "text" : ";"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 28,
+      "modifiers" : 2,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 28,
+      "modifiers" : 3,
+      "text" : "√"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 29,
+      "modifiers" : 0,
+      "text" : "0"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 29,
+      "modifiers" : 1,
+      "text" : ")"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 29,
+      "modifiers" : 2,
+      "text" : "}"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 29,
+      "modifiers" : 3,
+      "text" : "`"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 30,
+      "modifiers" : 0,
+      "text" : "ъ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 30,
+      "modifiers" : 1,
+      "text" : "Ъ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 30,
+      "modifiers" : 2,
+      "text" : "ъ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 30,
+      "modifiers" : 3,
+      "text" : "Ъ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 31,
+      "modifiers" : 0,
+      "text" : "щ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 31,
+      "modifiers" : 1,
+      "text" : "Щ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 31,
+      "modifiers" : 2,
+      "text" : "ў"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 31,
+      "modifiers" : 3,
+      "text" : "Ў"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 32,
+      "modifiers" : 0,
+      "text" : "г"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 32,
+      "modifiers" : 1,
+      "text" : "Г"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 32,
+      "modifiers" : 2,
+      "text" : "ѓ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 32,
+      "modifiers" : 3,
+      "text" : "Ѓ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 33,
+      "modifiers" : 0,
+      "text" : "х"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 33,
+      "modifiers" : 1,
+      "text" : "Х"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 33,
+      "modifiers" : 2,
+      "text" : "“"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 33,
+      "modifiers" : 3,
+      "text" : "”"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 34,
+      "modifiers" : 0,
+      "text" : "ш"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 34,
+      "modifiers" : 1,
+      "text" : "Ш"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 34,
+      "modifiers" : 2,
+      "text" : "ѕ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 34,
+      "modifiers" : 3,
+      "text" : "Ѕ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 35,
+      "modifiers" : 0,
+      "text" : "з"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 35,
+      "modifiers" : 1,
+      "text" : "З"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 35,
+      "modifiers" : 2,
+      "text" : "‘"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 35,
+      "modifiers" : 3,
+      "text" : "’"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 36,
+      "modifiers" : 0,
+      "text" : "\r"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 36,
+      "modifiers" : 1,
+      "text" : "\r"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 36,
+      "modifiers" : 2,
+      "text" : "\r"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 36,
+      "modifiers" : 3,
+      "text" : "\r"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 37,
+      "modifiers" : 0,
+      "text" : "д"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 37,
+      "modifiers" : 1,
+      "text" : "Д"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 37,
+      "modifiers" : 2,
+      "text" : "∆"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 37,
+      "modifiers" : 3,
+      "text" : "∆"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 38,
+      "modifiers" : 0,
+      "text" : "о"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 38,
+      "modifiers" : 1,
+      "text" : "О"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 38,
+      "modifiers" : 2,
+      "text" : "°"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 38,
+      "modifiers" : 3,
+      "text" : "•"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 39,
+      "modifiers" : 0,
+      "text" : "э"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 39,
+      "modifiers" : 1,
+      "text" : "Э"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 39,
+      "modifiers" : 2,
+      "text" : "э"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 39,
+      "modifiers" : 3,
+      "text" : "Э"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 40,
+      "modifiers" : 0,
+      "text" : "л"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 40,
+      "modifiers" : 1,
+      "text" : "Л"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 40,
+      "modifiers" : 2,
+      "text" : "љ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 40,
+      "modifiers" : 3,
+      "text" : "Љ"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 41,
+      "modifiers" : 0,
+      "text" : "ж"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 41,
+      "modifiers" : 1,
+      "text" : "Ж"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 41,
+      "modifiers" : 2,
+      "text" : "…"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 41,
+      "modifiers" : 3,
+      "text" : "…"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 42,
+      "modifiers" : 0,
+      "text" : "ё"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 42,
+      "modifiers" : 1,
+      "text" : "Ё"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 42,
+      "modifiers" : 2,
+      "text" : "ё"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 42,
+      "modifiers" : 3,
+      "text" : "Ё"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 43,
+      "modifiers" : 0,
+      "text" : "б"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 43,
+      "modifiers" : 1,
+      "text" : "Б"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 43,
+      "modifiers" : 2,
+      "text" : "≤"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 43,
+      "modifiers" : 3,
+      "text" : "<"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 44,
+      "modifiers" : 0,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 44,
+      "modifiers" : 1,
+      "text" : "?"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 44,
+      "modifiers" : 2,
+      "text" : "“"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 44,
+      "modifiers" : 3,
+      "text" : "„"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 45,
+      "modifiers" : 0,
+      "text" : "т"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 45,
+      "modifiers" : 1,
+      "text" : "Т"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 45,
+      "modifiers" : 2,
+      "text" : "™"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 45,
+      "modifiers" : 3,
+      "text" : "™"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 46,
+      "modifiers" : 0,
+      "text" : "ь"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 46,
+      "modifiers" : 1,
+      "text" : "Ь"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 46,
+      "modifiers" : 2,
+      "text" : "~"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 46,
+      "modifiers" : 3,
+      "text" : "~"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 47,
+      "modifiers" : 0,
+      "text" : "ю"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 47,
+      "modifiers" : 1,
+      "text" : "Ю"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 47,
+      "modifiers" : 2,
+      "text" : "≥"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 47,
+      "modifiers" : 3,
+      "text" : ">"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 48,
+      "modifiers" : 0,
+      "text" : "\t"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 48,
+      "modifiers" : 1,
+      "text" : "\t"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 48,
+      "modifiers" : 2,
+      "text" : "\t"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 48,
+      "modifiers" : 3,
+      "text" : "\t"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 49,
+      "modifiers" : 0,
+      "text" : " "
+    },
+    {
+      "dead" : false,
+      "keyCode" : 49,
+      "modifiers" : 1,
+      "text" : " "
+    },
+    {
+      "dead" : false,
+      "keyCode" : 49,
+      "modifiers" : 2,
+      "text" : " "
+    },
+    {
+      "dead" : false,
+      "keyCode" : 49,
+      "modifiers" : 3,
+      "text" : " "
+    },
+    {
+      "dead" : false,
+      "keyCode" : 50,
+      "modifiers" : 0,
+      "text" : "]"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 50,
+      "modifiers" : 1,
+      "text" : "["
+    },
+    {
+      "dead" : false,
+      "keyCode" : 50,
+      "modifiers" : 2,
+      "text" : "]"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 50,
+      "modifiers" : 3,
+      "text" : "["
+    },
+    {
+      "dead" : false,
+      "keyCode" : 51,
+      "modifiers" : 0,
+      "text" : "\b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 51,
+      "modifiers" : 1,
+      "text" : "\b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 51,
+      "modifiers" : 2,
+      "text" : "\b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 51,
+      "modifiers" : 3,
+      "text" : "\b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 52,
+      "modifiers" : 0,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 52,
+      "modifiers" : 1,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 52,
+      "modifiers" : 2,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 52,
+      "modifiers" : 3,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 53,
+      "modifiers" : 0,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 53,
+      "modifiers" : 1,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 53,
+      "modifiers" : 2,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 53,
+      "modifiers" : 3,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 65,
+      "modifiers" : 0,
+      "text" : ","
+    },
+    {
+      "dead" : false,
+      "keyCode" : 65,
+      "modifiers" : 1,
+      "text" : "."
+    },
+    {
+      "dead" : false,
+      "keyCode" : 65,
+      "modifiers" : 2,
+      "text" : ","
+    },
+    {
+      "dead" : false,
+      "keyCode" : 65,
+      "modifiers" : 3,
+      "text" : ","
+    },
+    {
+      "dead" : false,
+      "keyCode" : 66,
+      "modifiers" : 0,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 66,
+      "modifiers" : 1,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 66,
+      "modifiers" : 2,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 66,
+      "modifiers" : 3,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 67,
+      "modifiers" : 0,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 67,
+      "modifiers" : 1,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 67,
+      "modifiers" : 2,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 67,
+      "modifiers" : 3,
+      "text" : "*"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 69,
+      "modifiers" : 0,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 69,
+      "modifiers" : 1,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 69,
+      "modifiers" : 2,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 69,
+      "modifiers" : 3,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 70,
+      "modifiers" : 0,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 70,
+      "modifiers" : 1,
+      "text" : "+"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 70,
+      "modifiers" : 2,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 70,
+      "modifiers" : 3,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 71,
+      "modifiers" : 0,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 71,
+      "modifiers" : 1,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 71,
+      "modifiers" : 2,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 71,
+      "modifiers" : 3,
+      "text" : "\u001b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 72,
+      "modifiers" : 0,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 72,
+      "modifiers" : 1,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 72,
+      "modifiers" : 2,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 72,
+      "modifiers" : 3,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 75,
+      "modifiers" : 0,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 75,
+      "modifiers" : 1,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 75,
+      "modifiers" : 2,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 75,
+      "modifiers" : 3,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 76,
+      "modifiers" : 0,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 76,
+      "modifiers" : 1,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 76,
+      "modifiers" : 2,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 76,
+      "modifiers" : 3,
+      "text" : "\u0003"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 77,
+      "modifiers" : 0,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 77,
+      "modifiers" : 1,
+      "text" : "/"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 77,
+      "modifiers" : 2,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 77,
+      "modifiers" : 3,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 78,
+      "modifiers" : 0,
+      "text" : "-"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 78,
+      "modifiers" : 1,
+      "text" : "-"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 78,
+      "modifiers" : 2,
+      "text" : "-"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 78,
+      "modifiers" : 3,
+      "text" : "-"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 81,
+      "modifiers" : 0,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 81,
+      "modifiers" : 1,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 81,
+      "modifiers" : 2,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 81,
+      "modifiers" : 3,
+      "text" : "="
+    },
+    {
+      "dead" : false,
+      "keyCode" : 82,
+      "modifiers" : 0,
+      "text" : "0"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 82,
+      "modifiers" : 1,
+      "text" : "0"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 82,
+      "modifiers" : 2,
+      "text" : "0"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 82,
+      "modifiers" : 3,
+      "text" : "0"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 83,
+      "modifiers" : 0,
+      "text" : "1"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 83,
+      "modifiers" : 1,
+      "text" : "1"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 83,
+      "modifiers" : 2,
+      "text" : "1"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 83,
+      "modifiers" : 3,
+      "text" : "1"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 84,
+      "modifiers" : 0,
+      "text" : "2"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 84,
+      "modifiers" : 1,
+      "text" : "2"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 84,
+      "modifiers" : 2,
+      "text" : "2"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 84,
+      "modifiers" : 3,
+      "text" : "2"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 85,
+      "modifiers" : 0,
+      "text" : "3"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 85,
+      "modifiers" : 1,
+      "text" : "3"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 85,
+      "modifiers" : 2,
+      "text" : "3"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 85,
+      "modifiers" : 3,
+      "text" : "3"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 86,
+      "modifiers" : 0,
+      "text" : "4"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 86,
+      "modifiers" : 1,
+      "text" : "4"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 86,
+      "modifiers" : 2,
+      "text" : "4"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 86,
+      "modifiers" : 3,
+      "text" : "4"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 87,
+      "modifiers" : 0,
+      "text" : "5"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 87,
+      "modifiers" : 1,
+      "text" : "5"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 87,
+      "modifiers" : 2,
+      "text" : "5"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 87,
+      "modifiers" : 3,
+      "text" : "5"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 88,
+      "modifiers" : 0,
+      "text" : "6"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 88,
+      "modifiers" : 1,
+      "text" : "6"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 88,
+      "modifiers" : 2,
+      "text" : "6"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 88,
+      "modifiers" : 3,
+      "text" : "6"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 89,
+      "modifiers" : 0,
+      "text" : "7"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 89,
+      "modifiers" : 1,
+      "text" : "7"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 89,
+      "modifiers" : 2,
+      "text" : "7"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 89,
+      "modifiers" : 3,
+      "text" : "7"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 91,
+      "modifiers" : 0,
+      "text" : "8"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 91,
+      "modifiers" : 1,
+      "text" : "8"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 91,
+      "modifiers" : 2,
+      "text" : "8"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 91,
+      "modifiers" : 3,
+      "text" : "8"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 92,
+      "modifiers" : 0,
+      "text" : "9"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 92,
+      "modifiers" : 1,
+      "text" : "9"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 92,
+      "modifiers" : 2,
+      "text" : "9"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 92,
+      "modifiers" : 3,
+      "text" : "9"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 93,
+      "modifiers" : 0,
+      "text" : ">"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 93,
+      "modifiers" : 1,
+      "text" : "<"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 93,
+      "modifiers" : 2,
+      "text" : "§"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 93,
+      "modifiers" : 3,
+      "text" : "±"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 94,
+      "modifiers" : 0,
+      "text" : "]"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 94,
+      "modifiers" : 1,
+      "text" : "["
+    },
+    {
+      "dead" : false,
+      "keyCode" : 94,
+      "modifiers" : 2,
+      "text" : "]"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 94,
+      "modifiers" : 3,
+      "text" : "["
+    },
+    {
+      "dead" : false,
+      "keyCode" : 96,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 96,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 96,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 96,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 97,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 97,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 97,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 97,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 98,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 98,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 98,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 98,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 99,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 99,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 99,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 99,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 100,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 100,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 100,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 100,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 101,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 101,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 101,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 101,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 102,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 102,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 102,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 102,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 103,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 103,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 103,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 103,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 104,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 104,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 104,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 104,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 105,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 105,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 105,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 105,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 106,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 106,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 106,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 106,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 107,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 107,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 107,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 107,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 108,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 108,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 108,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 108,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 109,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 109,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 109,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 109,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 110,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 110,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 110,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 110,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 111,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 111,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 111,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 111,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 112,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 112,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 112,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 112,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 113,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 113,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 113,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 113,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 114,
+      "modifiers" : 0,
+      "text" : "\u0005"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 114,
+      "modifiers" : 1,
+      "text" : "\u0005"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 114,
+      "modifiers" : 2,
+      "text" : "\u0005"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 114,
+      "modifiers" : 3,
+      "text" : "\u0005"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 115,
+      "modifiers" : 0,
+      "text" : "\u0001"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 115,
+      "modifiers" : 1,
+      "text" : "\u0001"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 115,
+      "modifiers" : 2,
+      "text" : "\u0001"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 115,
+      "modifiers" : 3,
+      "text" : "\u0001"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 116,
+      "modifiers" : 0,
+      "text" : "\u000b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 116,
+      "modifiers" : 1,
+      "text" : "\u000b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 116,
+      "modifiers" : 2,
+      "text" : "\u000b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 116,
+      "modifiers" : 3,
+      "text" : "\u000b"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 117,
+      "modifiers" : 0,
+      "text" : ""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 117,
+      "modifiers" : 1,
+      "text" : ""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 117,
+      "modifiers" : 2,
+      "text" : ""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 117,
+      "modifiers" : 3,
+      "text" : ""
+    },
+    {
+      "dead" : false,
+      "keyCode" : 118,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 118,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 118,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 118,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 119,
+      "modifiers" : 0,
+      "text" : "\u0004"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 119,
+      "modifiers" : 1,
+      "text" : "\u0004"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 119,
+      "modifiers" : 2,
+      "text" : "\u0004"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 119,
+      "modifiers" : 3,
+      "text" : "\u0004"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 120,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 120,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 120,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 120,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 121,
+      "modifiers" : 0,
+      "text" : "\f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 121,
+      "modifiers" : 1,
+      "text" : "\f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 121,
+      "modifiers" : 2,
+      "text" : "\f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 121,
+      "modifiers" : 3,
+      "text" : "\f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 122,
+      "modifiers" : 0,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 122,
+      "modifiers" : 1,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 122,
+      "modifiers" : 2,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 122,
+      "modifiers" : 3,
+      "text" : "\u0010"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 123,
+      "modifiers" : 0,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 123,
+      "modifiers" : 1,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 123,
+      "modifiers" : 2,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 123,
+      "modifiers" : 3,
+      "text" : "\u001c"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 124,
+      "modifiers" : 0,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 124,
+      "modifiers" : 1,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 124,
+      "modifiers" : 2,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 124,
+      "modifiers" : 3,
+      "text" : "\u001d"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 125,
+      "modifiers" : 0,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 125,
+      "modifiers" : 1,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 125,
+      "modifiers" : 2,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 125,
+      "modifiers" : 3,
+      "text" : "\u001f"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 126,
+      "modifiers" : 0,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 126,
+      "modifiers" : 1,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 126,
+      "modifiers" : 2,
+      "text" : "\u001e"
+    },
+    {
+      "dead" : false,
+      "keyCode" : 126,
+      "modifiers" : 3,
+      "text" : "\u001e"
+    }
+  ],
+  "id" : "ru",
+  "keyboardType" : 92,
+  "systemID" : "com.apple.keylayout.Russian"
+}

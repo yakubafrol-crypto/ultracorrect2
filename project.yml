@@ -1,0 +1,53 @@
+name: UltraCorrect2
+options:
+  minimumXcodeGenVersion: 2.44.0
+  deploymentTarget:
+    macOS: '15.0'
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+    ARCHS: arm64
+    MACOSX_DEPLOYMENT_TARGET: '15.0'
+    ENABLE_HARDENED_RUNTIME: YES
+    ENABLE_APP_SANDBOX: NO
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: UltraCorrect Local Development
+    MARKETING_VERSION: 2.0.0-alpha.1
+    CURRENT_PROJECT_VERSION: 31
+targets:
+  UltraCorrect:
+    type: application
+    platform: macOS
+    sources: [App]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.ultracorrect.mac
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: App/Info.plist
+      properties:
+        LSUIElement: true
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: UltraCorrect
+        NSHighResolutionCapable: true
+  UCTestHost:
+    type: application
+    platform: macOS
+    sources: [TestHost]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.ultracorrect.testhost
+    info:
+      path: TestHost/Info.plist
+      properties:
+        CFBundleDisplayName: UCTestHost
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+schemes:
+  UltraCorrect:
+    build:
+      targets:
+        UltraCorrect: all
+        UCTestHost: all

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "docs/SPEC.md",
+    "sha256": "4e4d48fa0fd7c8e1f91fbb8b5e27db4ff1100a51ccf4062ba698f4d26eb77312"
+  },
+  {
+    "path": "docs/PROCESS.md",
+    "sha256": "06165370857c053183af2e87b75bbb6592d198a9bd7a4af25fa48636bc87c095"
+  },
+  {
+    "path": "docs/ANALYSIS.md",
+    "sha256": "182f33bb5dcf91bd48470bb4015ab590eba57d2be99571c893a2cdb5ce2ba38e"
+  },
+  {
+    "path": "docs/iterations/01a/TZ.md",
+    "sha256": "1e69cef802d13f5f81173ebe1146669074cd0c4cb88629cfb506b9b8dd73c904"
+  },
+  {
+    "path": "tools/reference/kbd_estimate.py",
+    "sha256": "0ae1f6d5739ad551b2c9afbe8c8dd26c5336f11cc161e83aa95eee49a0c88686"
+  }
+]

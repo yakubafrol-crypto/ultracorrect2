@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "required_fields": ["name", "url", "sha256", "license", "bytes", "purpose"],
+  "resources": [],
+  "note": "Iteration 01a downloads and bundles no third-party linguistic resources."
+}
